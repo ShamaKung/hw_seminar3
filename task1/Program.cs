@@ -10,10 +10,6 @@ int [] n = new int [lengthB];
 for (int i = 0; i < lengthB; i++)
 {
     n[i] = A;
-}
-
-for (int i = 0; i < lengthB; i++)
-{
     res = res * n[i];
 }
 
